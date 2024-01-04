@@ -21,5 +21,5 @@ optionally ```/setdescription``` and ```/setuserpic```.
 
 2. Add the bot to the chat/channel and note its id:
 - add the bot to a new or existing chat or group - this is where your bot will send notifications to;
-- go to ```https://api.telegram.org/bot<TELEGRAM_TOKEN>/getUpdates``` (replace ```TELEGRAM_TOKEN``` with your token);
+- go to ```https://api.telegram.org/bot<TELEGRAM_TOKEN>/getUpdates``` (replace ```<TELEGRAM_TOKEN>``` with your token);
 - within the ```chat``` part, find and note the ```id``` field - a positive or negative number (referred to as ```TELEGRAM_CHAT_ID``` in your ```.env``` file).
